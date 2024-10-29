@@ -1,6 +1,8 @@
-package com.obl.wehelp.model;
+package com.obl.wehelp.model.signup;
 
-public class ApplicantRequest implements Request{
+import com.obl.wehelp.model.Request;
+
+public class ApplicantRequest implements Request {
     private String phoneNumber;
     private String email;
     private String msgFromApplicant;//length of 512

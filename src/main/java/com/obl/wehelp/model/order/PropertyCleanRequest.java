@@ -1,5 +1,5 @@
 package com.obl.wehelp.model.order;
 
-public class HouseCleanRequest extends OrderRequest {
+public class PropertyCleanRequest extends OrderRequest {
     ClientProperty clientProperty;
 }

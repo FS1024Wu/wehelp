@@ -1,16 +1,28 @@
 package com.obl.wehelp.controller;
 
-import com.obl.wehelp.model.EmployeeApplicant;
+import com.obl.wehelp.model.Request;
+import com.obl.wehelp.model.signup.EmployeeApplicantRequest;
+import com.obl.wehelp.model.signup.PartnerApplicantRequest;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class SignUpController {
 
-    @GetMapping("/joinus")
-    public ResponseEntity apply(@RequestBody EmployeeApplicant request) {
+    @PostMapping("/signup/user")
+    public ResponseEntity apply(@RequestBody Request request) {
+        return null;
+    }
+
+    @PostMapping("/signup/employee")
+    public ResponseEntity apply(@RequestBody EmployeeApplicantRequest request) {
+        return null;
+    }
+
+    @PostMapping("/signup/partner")
+    public ResponseEntity apply(@RequestBody PartnerApplicantRequest request) {
         return null;
     }
 }

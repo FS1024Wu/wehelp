@@ -1,4 +1,4 @@
-package com.ohbang.wehelp.mapper;
+package com.obl.wehelp.mapper;
 
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;

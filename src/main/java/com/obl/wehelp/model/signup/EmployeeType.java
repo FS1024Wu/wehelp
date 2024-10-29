@@ -1,4 +1,4 @@
-package com.obl.wehelp.model;
+package com.obl.wehelp.model.signup;
 
 public enum EmployeeType {
     DRIVER("driver"),

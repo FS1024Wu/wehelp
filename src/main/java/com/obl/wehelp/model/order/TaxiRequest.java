@@ -1,5 +1,5 @@
 package com.obl.wehelp.model.order;
 
-public class TaxingRequest extends OrderRequest{
+public class TaxiRequest extends OrderRequest{
     VehicleType requestedVehicleType;
 }

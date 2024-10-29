@@ -1,7 +1,5 @@
 package com.obl.wehelp.model;
 
-public class Request {
-    private String message;
-
+public interface Request {
     // Getters and Setters
 }
