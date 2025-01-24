@@ -6,10 +6,8 @@ public enum VehicleType{
     MINIVAN,    //1-8 ppl
     VAN,        //1-15
     PICKUP,     //1-4
-    SPORTS,     //etc
-    LUXURY,     //...
-    TRUCK1B1B,  // 1b1b etc
-    TRUCK2B2B,  // 2b2b
-    TRUCK3B3B,  // 3b3b
-    TRUCK4B4B;  //
+    TRUCK_1B1B,  // 1b1b etc
+    TRUCK_2B2B,  // 2b2b
+    TRUCK_3B3B,  // 3b3b
+    TRUCK_4B4B;  //
 }

@@ -4,8 +4,6 @@ import com.obl.wehelp.model.order.DeepCleanRequest;
 import com.obl.wehelp.model.order.MovingRequest;
 import com.obl.wehelp.model.order.PropertyCleanRequest;
 import com.obl.wehelp.model.order.TaxiRequest;
-import com.obl.wehelp.model.signup.EmployeeApplicantRequest;
-import com.obl.wehelp.model.signup.PartnerApplicantRequest;
 import com.obl.wehelp.model.Request;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
