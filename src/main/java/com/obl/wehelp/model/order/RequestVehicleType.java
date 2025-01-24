@@ -1,6 +1,6 @@
 package com.obl.wehelp.model.order;
 
-public enum VehicleType{
+public enum RequestVehicleType{
     SEDAN,      //1-4
     SUV,        //1-4
     MINIVAN,    //1-8 ppl

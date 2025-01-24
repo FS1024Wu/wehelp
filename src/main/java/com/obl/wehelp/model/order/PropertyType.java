@@ -5,6 +5,8 @@ public enum PropertyType {
     CONDO,
     HOUSE,
     TOWNHOUSE,
-    MULTI_FAMILY,
+    RESIDENTIAL,
+    OFFICE,
+    MULTIFAMILY,
     OTHER;
 }

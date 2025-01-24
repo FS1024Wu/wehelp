@@ -10,5 +10,5 @@ import lombok.ToString;
 @Setter
 @NoArgsConstructor
 public class TaxiRequest extends OrderRequest{
-    VehicleType requestedVehicleType;
+    RequestVehicleType requestedVehicleType;
 }
