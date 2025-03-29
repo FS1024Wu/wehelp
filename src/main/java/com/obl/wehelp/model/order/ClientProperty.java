@@ -4,7 +4,6 @@ import java.util.List;
 
 public class ClientProperty {
     PropertyType propertyType;
-    List<Room> bathroom;
-    List<Room> bedroom;
-    List<Room> livingRoom;
+    byte bathroom;
+    float bedroom;
 }

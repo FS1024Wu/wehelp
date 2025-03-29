@@ -11,15 +11,12 @@ import lombok.ToString;
 @Getter
 @Setter
 @NoArgsConstructor
-public class DeepCleanRequest extends OrderRequest{
-    boolean carpetWash;
-    boolean hardwoodClean;
-    boolean dryerDedusting;
-    boolean pressureWash;
+public class HouseCleanRequest extends OrderRequest {
+    ClientProperty clientProperty;
 
     @JsonIgnore
     @Override
     public Class<? extends Request> getRequestClass() {
-        return DeepCleanRequest.class;
+        return HouseCleanRequest.class;
     }
 }

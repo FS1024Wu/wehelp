@@ -6,4 +6,9 @@ public class ApplicantRequest implements Request {
     private String phoneNumber;
     private String email;
     private String msgFromApplicant;//length of 512
+
+    @Override
+    public Class<? extends Request> getRequestClass() {
+        return null;
+    }
 }

@@ -12,9 +12,9 @@ import java.time.LocalDateTime;
 @Getter
 @Setter
 @NoArgsConstructor
-public class OrderRequest implements Request {
+public abstract class OrderRequest implements Request {
     Address fromAddress; //moving, driving
     Address toAddress;   //moving, driving, clean, tech
-    LocalDateTime fromTime;  //moving, clean, tech, driving
-    LocalDateTime toTime;    //moving, clean, tech
+    String localFromTime;  //moving, clean, tech, driving
+    String localToTime;    //moving, clean, tech
 }

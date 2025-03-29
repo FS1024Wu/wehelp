@@ -3,10 +3,8 @@ package com.obl.wehelp.model.order;
 public enum PropertyType {
     APARTMENT,
     CONDO,
-    HOUSE,
+    SINGLE_FAMILY,
     TOWNHOUSE,
-    RESIDENTIAL,
-    OFFICE,
     MULTIFAMILY,
     OTHER;
 }

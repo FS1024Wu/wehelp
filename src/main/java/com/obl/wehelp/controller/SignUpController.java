@@ -16,6 +16,7 @@ public class SignUpController {
         return null;
     }
 
+
     @PostMapping("/signup/employee")
     public ResponseEntity apply(@RequestBody EmployeeApplicantRequest request) {
         return null;
